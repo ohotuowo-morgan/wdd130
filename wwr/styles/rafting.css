@@ -214,6 +214,15 @@ footer p{
   border-radius: 8px;
 }
 
+
+.contact-form{
+  background-color: var(--accent1-color);
+  padding: 1.5rem;
+}
+
+.newsletter h2{
+  text-align: center;
+}
 .contact-form form {
   display: flex;
   flex-direction: column;
@@ -247,7 +256,7 @@ footer a:hover{
   background-color: var(--accent2-color);
 }
 
-.history-layout > article{
+.history-layout  article{
   position: relative;
   top: auto;
   left:auto;
@@ -261,5 +270,74 @@ footer a:hover{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
+  background-color: var(--accent1-color);
+}
+
+.grid-info {
+  padding: 2rem 1rem;
+}
+
+.history-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+
+.info-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.info-item article {
+  margin-top: 0.5rem;
+}
+
+.info-item h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.info-item p {
+  font-size: 1rem;
+  color: var(--primary-color);
+}
+
+.trip-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.trip-cards .trip {
+  background-color: var(--accent2-color);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.trip-cards img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.trip-table {
+  padding: 1rem;
+  text-align: center;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+  padding: 12px;
+  border: 1px solid var(--accent1-color);
   text-align: center;
 }
