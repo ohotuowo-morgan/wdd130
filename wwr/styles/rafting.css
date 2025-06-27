@@ -7,7 +7,7 @@
   --body-font: "Roboto", sans-serif;
 }
 
-/* @media (max-width: 768px){
+@media (max-width: 768px){
   body{
     font-size: 16px;
     padding: 10px;
@@ -22,7 +22,7 @@
     max-width: 100%;
     height: auto;
   }
-} */
+}
 
 header{
   margin: 1rem auto;
@@ -35,7 +35,7 @@ header{
 }
 
 main{
-  background-color: #fff;
+  background-color: #6f99cfd3;
   padding: 10px;
 }
 
